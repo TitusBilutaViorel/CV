@@ -1,0 +1,93 @@
+/* Medium devices */
+@media screen and (min-width: 576px){
+    .projects__content{
+        grid-template-columns: 332px;
+        justify-content: center;
+    }
+
+    .filters__content{
+        width: 332px;
+        margin: 3rem auto;
+    }
+}
+
+@media screen and (min-width: 776px){
+    .projects__content{
+        grid-template-columns: repeat(2, 332px);
+    }
+
+    .skills__content{
+        grid-template-columns: repeat(3, 200px);
+        justify-content: center;
+        column-gap: 2.5rem;
+    }
+}
+
+/* Large devices */
+@media screen and (min-width: 992px){
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .change-theme{
+        top: 3rem;
+        right: 2.5rem;
+    }
+
+    .profile{
+        padding-top: 4rem;
+    }
+
+    .profile__border{
+        width: 135px;
+        height: 135px;
+        margin-bottom: 1rem;
+    }
+
+    .profile__avatar{
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile__profession{
+        margin-bottom: 1.5rem;
+    }
+
+    .profile__info-description{
+        font-size: var(--small-font-size);
+    }
+
+    .profile__buttons{
+        column-gap: 3rem;
+    }
+
+    .profile__buttons-small{
+        column-gap: 1rem;
+    }
+
+    .projects__content{
+        gap: 2rem 3rem;
+    }
+
+    .projects__modal{
+        padding: 1.5rem;
+    }
+
+    .skills__title{
+        font-size: var(--normal-font-size);
+        margin-bottom: 2.5rem;
+    }
+
+    .skills__group{
+        row-gap: 1.5rem;
+    }
+
+    .skills__box{
+        column-gap: 2rem;
+    }
+
+    .footer__copy{
+        margin: 4.5rem 0 2.5rem;
+    }
+}

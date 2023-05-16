@@ -1,0 +1,45 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+/* General Variabiles */
+:root {
+  /* Colors */
+  --hue: 29;
+  --sat: 96%;
+  --lig: 51%;
+  --first-color: hsl(var(--hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--hue), var(--sat), 47%); /* lig-4% */
+  --title-color: hsl(var(--hue), 12%, 15%);
+  --text-color: hsl(var(--hue), 12%, 45%);
+  --text-color-light: hsl(var(--hue), 8%, 75%);
+  --text-color-lighten: hsl(var(--hue), 8%, 92%);
+  --body-color: hsl(var(--hue), 100%, 99%);
+  --container-color: #fff;
+
+  /* Font and typography */
+  /* 1rem = 16px */
+  --body-font: 'Raleway', sans-serif;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.92rem;
+  --small-font-size: 0.81rem;
+  --smaller-font-size: 0.7rem;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.87rem;
+    --smaller-font-size: 0.81rem;
+  }
+}
+
+/* Dark Mode */
+body.dark-theme{
+  --title-color: hsl(var(--hue), 12%, 95%);
+  --text-color: hsl(var(--hue), 12%, 75%);
+  --body-color: hsl(var(--hue), 40%, 4%);
+  --container-color: hsl(var(--hue), 24%, 12%);
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+        <!-- Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/var.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/breakpoints.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/scrollbar.css">
+
+        <title>CV</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="profile container">
+            <!-- Dark Mode -->
+            <i class="ri-moon-fill change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__avatar">
+                            <img src="assets/img/avatar.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Biluta Titus</h2>
+                    <h3 class="profile__profession">Junior Frontend Developer</h3>
+                    <ul class="profile__social">
+                        <a href="https://www.linkedin.com/in/titus-biluta-478337274/" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://github.com/TitusBilutaViorel" target="_blank" class="profile__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://gitlab.com/TitusBiluta" target="_blank" class="profile__social-link">
+                            <i class="ri-gitlab-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-title">University</h3>
+                        <p class="profile__info-description">Technical University <br> of Cluj-Napoca</p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-title">Master Faculty</h3>
+                        <p class="profile__info-description">Automation and <br> Computer Science <br> ................................................... <br> Systems Engineering </p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/Biluta_Titus_CV.pdf" class="button">
+                        CV <i class="ri-download-2-fill"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <a href="https://www.instagram.com/titus.biluta/" target="_blank" class="button button__small button__hover">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/max.titus.1/" target="_blank" class="button button__small button__hover">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+
+                        <a href="https://wa.me/0040753404949" target="_blank" class="button button__small button__hover">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Main -->
+        <main class="main">
+            <section class="filters container">
+                <!-- Filters Tabs -->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!-- Projects -->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Clothing Promo</span>
+                                    <h3 class="projects__title">GLAS</h3>
+                                    <a href="https://titusbilutaviorel.github.io/Glas/" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-eye-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Event Planner</span>
+                                    <h3 class="projects__title">Heart Society</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-eye-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Frontend
+                            </h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-html5-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-css3-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-javascript-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-grid-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">Grid</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-drag-move-2-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">Flex</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-parentheses-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">Jquery</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Photo Editor
+                            </h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-image-edit-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">Adobe Photoshop</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-landscape-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">Adobe Illustrator</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Other
+                            </h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-github-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">GitHub</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-gitlab-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">GitLab</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-code-box-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">Visual Studio Code</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-box-3-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">Docker</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-functions"></i>
+                                        <div>
+                                            <h3 class="skills__name">MATLAB & Simulink</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-database-2-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">MySQL Server & Postman</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Titus Biluta. All rights reserved.
+            </span>
+        </footer>
+
+        <!-- Scroll Reveal -->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <script src="assets/js/scrollreveal.js"></script>
+
+        <!-- Filter Tabs -->
+        <script src="assets/js/filters.js"></script>
+
+        <!-- Dark Mode -->
+        <script src="assets/js/darkmode.js"></script>
+
+    </body>
+</html>
