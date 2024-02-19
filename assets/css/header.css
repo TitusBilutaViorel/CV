@@ -45,13 +45,6 @@
   margin-bottom: 0.25rem;
 }
 
-.profile__profession {
-  font-size: var(--smaller-font-size);
-  font-weight: 600;
-  color: var(--text-color);
-  margin-bottom: 1rem;
-}
-
 .profile__social {
   display: flex;
   justify-content: center;
